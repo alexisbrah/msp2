@@ -9093,3 +9093,318 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [09Dec2024 02:01:55.561] [Server thread/DEBUG] [mixin/]: mcda.mixins.json:PiglinBrainMixin from mod mcda->@Inject::mcda$onPiglinSelectPlayerToAttack(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
 [09Dec2024 02:01:55.562] [Server thread/DEBUG] [mixin/]: mcda.mixins.json:PiglinBrainMixin from mod mcda->@Inject::mcda$onPiglinSelectPlayerToAttack(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
 [09Dec2024 02:01:57.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has reached the goal [Eye of Darkness]
+[09Dec2024 02:04:09.475] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of paraglider:underground_horned_statue
+[09Dec2024 02:04:09.735] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of alexscaves:underground_cabin_2
+[09Dec2024 02:04:09.950] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:ice_maze/common
+[09Dec2024 02:04:10.068] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:ice_maze/spiral
+[09Dec2024 02:04:10.119] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:ice_maze/arch
+[09Dec2024 02:04:10.945] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of structory:ruin/swamp/ruin2
+[09Dec2024 02:04:11.215] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:derelict/derelict_tower_bottom
+[09Dec2024 02:04:11.219] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:derelict/waystone_derelict_tower_top
+[09Dec2024 02:04:11.388] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of alexscaves:underground_cabin_0
+[09Dec2024 02:04:11.413] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/t_1
+[09Dec2024 02:04:11.421] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/bent_2
+[09Dec2024 02:04:11.422] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/straight
+[09Dec2024 02:04:11.429] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/lamp_4
+[09Dec2024 02:04:11.430] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/lamp_1
+[09Dec2024 02:04:11.436] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/mason
+[09Dec2024 02:04:11.506] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/smith
+[09Dec2024 02:04:11.512] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/t_2
+[09Dec2024 02:04:11.515] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/campfire_1
+[09Dec2024 02:04:11.518] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/flowerbed
+[09Dec2024 02:04:11.519] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/bench
+[09Dec2024 02:04:11.519] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/lamp_5
+[09Dec2024 02:04:11.521] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/small_1
+[09Dec2024 02:04:11.527] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/chemist
+[09Dec2024 02:04:11.531] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/well
+[09Dec2024 02:04:11.531] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/campfire_2
+[09Dec2024 02:04:11.534] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/lamp_3
+[09Dec2024 02:04:11.535] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/goddess_statue
+[09Dec2024 02:04:11.539] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/small_3
+[09Dec2024 02:04:11.542] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/lamp_2
+[09Dec2024 02:04:11.543] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/bent_1
+[09Dec2024 02:04:11.544] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/terminator
+[09Dec2024 02:04:11.551] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/big_1
+[09Dec2024 02:04:11.565] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/farm
+[09Dec2024 02:04:11.567] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/armoursmith
+[09Dec2024 02:04:11.569] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/med_1
+[09Dec2024 02:04:11.573] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/jobsite/butcher
+[09Dec2024 02:04:11.576] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/roads/t_3
+[09Dec2024 02:04:11.585] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/common/chicken
+[09Dec2024 02:04:11.588] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/small_2
+[09Dec2024 02:04:11.590] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/house/small_4
+[09Dec2024 02:04:11.599] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga/deco/fountain
+[09Dec2024 02:04:11.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2339ms or 46 ticks behind
+[09Dec2024 02:04:13.434] [Worker-Main-8/DEBUG] [mixin/]: Mixing DripstoneUtilsMixin from mixins.eco.json into net.minecraft.world.level.levelgen.feature.DripstoneUtils
+[09Dec2024 02:04:13.436] [Worker-Main-8/DEBUG] [mixin/]: mixins.eco.json:DripstoneUtilsMixin from mod eco->@Inject::eco_isEmptyOrWaterOrLava(Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[09Dec2024 02:04:14.299] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:lore/outpost
+[09Dec2024 02:04:18.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
+[09Dec2024 02:04:23.930] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior1
+[09Dec2024 02:04:24.125] [Server thread/DEBUG] [mixin/]: Mixing DoubleInventoryAccessor from fabric-transfer-api-v1.mixins.json into net.minecraft.world.CompoundContainer
+[09Dec2024 02:04:24.126] [Server thread/DEBUG] [mixin/]: fabric-transfer-api-v1.mixins.json:DoubleInventoryAccessor from mod fabric_transfer_api_v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[09Dec2024 02:04:32.472] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:underground/old_refinery
+[09Dec2024 02:04:38.358] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:underground/smallminingoutpost
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Starting registry save
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:command_argument_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:item
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_entity_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:custom_stat
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/foliage_placer_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:stat_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_rule
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:attribute
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:position_source_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:height_provider_type
+[09Dec2024 02:04:38.684] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_block_entity_modifier
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/density_function_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:fluid
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:global_loot_modifier_serializers
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_condition_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_pool_element
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:activity
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_serializer
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:frog_variant
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:banner_pattern
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:tiny_bird_variant
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:instrument
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:decorated_pot_patterns
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature_size_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:point_of_interest_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:mob_effect
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_pool_entry_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/block_state_provider_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/chunk_generator
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:float_provider_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:chunk_status
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:enchantment
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_function_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_processor
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:structure_condition_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_score_provider_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/tree_decorator_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:schedule
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_condition
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:entity_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_profession
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:potion
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_type
+[09Dec2024 02:04:38.685] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:int_provider_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:cat_variant
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:pos_rule_test
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_placement
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_nbt_provider_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:menu
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/trunk_placer_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:creative_mode_tab
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/placement_modifier_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/carver
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_number_provider_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_piece
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sound_event
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:particle_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:game_event
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/biome_source
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/root_placer_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:painting_variant
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:fluid_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_predicate_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:entity_data_serializers
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sensor_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:dwarf_rabbit_variant
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_test
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:modifier_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:modifier_predicate_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:memory_module_type
+[09Dec2024 02:04:38.687] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving empty registry data
+[09Dec2024 02:04:38.727] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Dec2024 02:04:38.740] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09Dec2024 02:04:47.104] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of mowziesmobs:wroughtnaut_chamber
+[09Dec2024 02:04:50.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[09Dec2024 02:05:37.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Voluntary Exile]
+[09Dec2024 02:05:57.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Harbinger Of Dawn]
+[09Dec2024 02:06:28.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[09Dec2024 02:06:37.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Halberd]
+[09Dec2024 02:07:38.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Halberd]
+[09Dec2024 02:08:54.142] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/straight
+[09Dec2024 02:08:54.145] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/bent_2
+[09Dec2024 02:08:54.146] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/loomhouse
+[09Dec2024 02:08:54.149] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/big_2
+[09Dec2024 02:08:54.150] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/med_1
+[09Dec2024 02:08:54.151] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/smith
+[09Dec2024 02:08:54.152] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/lamp_3
+[09Dec2024 02:08:54.153] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/campfire_2
+[09Dec2024 02:08:54.154] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/bent_1
+[09Dec2024 02:08:54.155] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/small_1
+[09Dec2024 02:08:54.156] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/campfire_1
+[09Dec2024 02:08:54.156] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/lamp_1
+[09Dec2024 02:08:54.157] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/mason
+[09Dec2024 02:08:54.158] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/inter
+[09Dec2024 02:08:54.159] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/t_3
+[09Dec2024 02:08:54.160] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/fishing_hut
+[09Dec2024 02:08:54.160] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/lamp_4
+[09Dec2024 02:08:54.161] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/small_2
+[09Dec2024 02:08:54.163] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/big_1
+[09Dec2024 02:08:54.164] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/library
+[09Dec2024 02:08:54.165] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/butcher
+[09Dec2024 02:08:54.166] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/bench
+[09Dec2024 02:08:54.166] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/terminator
+[09Dec2024 02:08:54.167] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/lamp_2
+[09Dec2024 02:08:54.168] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/small_3
+[09Dec2024 02:08:54.170] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/med_3
+[09Dec2024 02:08:54.171] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/cartography
+[09Dec2024 02:08:54.177] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/house/med_2
+[09Dec2024 02:08:54.179] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/t_2
+[09Dec2024 02:08:54.179] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/lamp_5
+[09Dec2024 02:08:54.181] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/farm
+[09Dec2024 02:08:54.182] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/flowerbed
+[09Dec2024 02:08:54.183] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/fountain
+[09Dec2024 02:08:54.242] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of structory:ruin/taiga_surface/bridge1
+[09Dec2024 02:09:02.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 02:09:13.636] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:jungle/jungle_tower_bottom
+[09Dec2024 02:09:13.654] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:desert/desert_tower_bottom
+[09Dec2024 02:09:13.670] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:derelict_grass/derelict_grass_tower_bottom
+[09Dec2024 02:09:13.688] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of totw_modded:derelict_grass/waystone_derelict_grass_tower_top
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Starting registry save
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:command_argument_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:item
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_entity_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:custom_stat
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/foliage_placer_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:stat_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_rule
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:attribute
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:position_source_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:height_provider_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_block_entity_modifier
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/density_function_type
+[09Dec2024 02:09:38.572] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:fluid
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:global_loot_modifier_serializers
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_condition_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_pool_element
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:activity
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_serializer
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:frog_variant
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:banner_pattern
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:tiny_bird_variant
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:instrument
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:decorated_pot_patterns
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature_size_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:point_of_interest_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:mob_effect
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_pool_entry_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/block_state_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/chunk_generator
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:float_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:chunk_status
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:enchantment
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_function_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_processor
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:structure_condition_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_score_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/tree_decorator_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:schedule
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_condition
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:entity_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_profession
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:potion
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:int_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:cat_variant
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:pos_rule_test
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_placement
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_nbt_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:menu
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/trunk_placer_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:creative_mode_tab
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/placement_modifier_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/carver
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_number_provider_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_piece
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sound_event
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:particle_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:game_event
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/biome_source
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/root_placer_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:painting_variant
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:fluid_type
+[09Dec2024 02:09:38.573] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_predicate_type
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:entity_data_serializers
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sensor_type
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:dwarf_rabbit_variant
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_test
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:modifier_type
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: lithostitched:modifier_predicate_type
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:memory_module_type
+[09Dec2024 02:09:38.574] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving empty registry data
+[09Dec2024 02:09:38.601] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Dec2024 02:09:38.656] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09Dec2024 02:09:40.138] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:lore/shelter/tunnel_top
+[09Dec2024 02:09:41.022] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of structory:ruin/swamp/ruin4
+[09Dec2024 02:09:49.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[09Dec2024 02:09:56.730] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_4
+[09Dec2024 02:09:56.774] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_middle_0
+[09Dec2024 02:09:56.838] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_top_5
+[09Dec2024 02:09:56.859] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_spawner_0
+[09Dec2024 02:09:56.860] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_spawner_1
+[09Dec2024 02:09:59.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[09Dec2024 02:10:15.061] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of aquamirae:lore/ship
+[09Dec2024 02:10:59.702] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior2
+[09Dec2024 02:11:09.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 02:11:27.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xMenThor moved too quickly! 3.142796278717583,-0.2712241076924897,-9.667210168804957
+[09Dec2024 02:11:48.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [White Iron Chunk]
+[09Dec2024 02:11:50.911] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/birch_forest_romanian/town_centers/birch_forest_meeting_point_1
+[09Dec2024 02:11:50.940] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/exclusives/nilotic/base_plate
+[09Dec2024 02:11:50.964] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/mushroom_fields_fantasy/town_centers/mushroom_meeting_point_1
+[09Dec2024 02:11:51.048] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/beach_lighthouse/town_centers/beach_meeting_point_1
+[09Dec2024 02:11:51.072] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/jungle_tribal/town_centers/jungle_meeting_point_1
+[09Dec2024 02:11:51.090] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/exclusives/tudor/town_centers/tudor_meeting_point_1
+[09Dec2024 02:11:51.128] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/exclusives/swedish/town_centers/swedish_meeting_point_1
+[09Dec2024 02:11:51.143] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/wooded_badlands_tipi/town_centers/wooded_badlands_meeting_point_1
+[09Dec2024 02:11:51.163] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/sparse_jungle_polynesian/town_centers/sparse_jungle_meeting_point_1
+[09Dec2024 02:11:51.181] [Worker-Main-8/DEBUG] [ModernFix/]: Structure kaisyn:village/forest_ruins/town_centers/forest_meeting_point_1 is being run through DFU (hash 55f9831fdf8d35df8191e3e13ab17e546d65a10fafbb3fdb700f14809a4bd08a), this will cause launch time delays
+[09Dec2024 02:11:51.181] [Worker-Main-8/INFO] [ModernFix/]: Instantiating Mojang DFU
+[09Dec2024 02:11:53.336] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/snowy_taiga_viking/town_centers/snowy_taiga_meeting_point_1
+[09Dec2024 02:11:53.403] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/old_growth_taiga_polish/town_centers/old_growth_taiga_meeting_point_1
+[09Dec2024 02:11:53.453] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/exclusives/wandering_trader_camp/town_centers/trader_meeting_point_1
+[09Dec2024 02:11:53.497] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/grove_villager_outpost/town_centers/grove_meeting_point_1
+[09Dec2024 02:11:53.537] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/meadow_swiss/town_centers/meadow_meeting_point_1
+[09Dec2024 02:11:53.575] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/badlands_pueblo/town_centers/badlands_meeting_point_1
+[09Dec2024 02:11:53.628] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/snowy_slopes_inn/town_centers/snowy_slopes_meeting_point_1
+[09Dec2024 02:11:53.669] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/flower_forest_japanese/town_centers/flower_forest_meeting_point_1
+[09Dec2024 02:11:53.747] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/sunflower_plains_farm/town_centers/sunflower_plains_meeting_point_1
+[09Dec2024 02:11:53.787] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/exclusives/iberian/town_centers/iberian_meeting_point_1
+[09Dec2024 02:11:53.829] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of kaisyn:village/swamp_boat/town_centers/swamp_b_meeting_point_1
+[09Dec2024 02:12:23.782] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_3
+[09Dec2024 02:12:23.835] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_middle_2
+[09Dec2024 02:12:23.871] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_top_6
+[09Dec2024 02:12:39.771] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/jobsite/chemist
+[09Dec2024 02:12:39.776] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/well
+[09Dec2024 02:12:39.779] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/deco/goddess_statue
+[09Dec2024 02:12:40.014] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/common/villager/swamp
+[09Dec2024 02:12:41.101] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:village/taiga_fortified/roads/t_1
+[09Dec2024 02:13:01.735] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/swamp/base_plate is being run through DFU (hash 1c91b923ea37bb76ee3fe814183ce09996622f653bd3df6681f3381e18944892), this will cause launch time delays
+[09Dec2024 02:13:01.809] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/savanna/base_plate is being run through DFU (hash 6b9ec12b50e370fd2c31a4d65e130cb91bdca5d15a70970d8e19270ed8ff0cc0), this will cause launch time delays
+[09Dec2024 02:13:01.846] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/jungle/base_plate is being run through DFU (hash eb84ecf5def48181cd1b6e1bb0837dfa5c0a70eec549e3ab6cb04375fcce9168), this will cause launch time delays
+[09Dec2024 02:13:01.912] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/mountain/base_plate
+[09Dec2024 02:13:01.936] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/dark_forest/base_plate is being run through DFU (hash 1bb85056d7285c01e36adeffa5cd63d82233b6f2ae3601c424847bb273f6f4f4), this will cause launch time delays
+[09Dec2024 02:13:02.025] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/badlands/base_plate is being run through DFU (hash e65ed1d67ebee476a05f6744470d831eba8e3eee0664ea6c850294dfb16dea55), this will cause launch time delays
+[09Dec2024 02:13:02.073] [Worker-Main-13/DEBUG] [ModernFix/]: Structure ctov:pillager_outpost/snowy/base_plate is being run through DFU (hash aaa612a9e37d85d5286619f9a9c0397ed448c58c2cea9dc7bebaec5b731d8a11), this will cause launch time delays
+[09Dec2024 02:13:02.110] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/base_plate
+[09Dec2024 02:13:02.126] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/tower
+[09Dec2024 02:13:02.128] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/feature_plates
+[09Dec2024 02:13:02.179] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/targets
+[09Dec2024 02:13:02.229] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/log
+[09Dec2024 02:13:02.254] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/smith_tent
+[09Dec2024 02:13:02.257] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/ravager_cage
+[09Dec2024 02:13:02.259] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/golem_cage
+[09Dec2024 02:13:02.287] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/cook_tent
+[09Dec2024 02:13:02.288] [Worker-Main-13/DEBUG] [ModernFix/]: Using cached upgraded version of ctov:pillager_outpost/taiga/cage
+[09Dec2024 02:13:04.963] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind

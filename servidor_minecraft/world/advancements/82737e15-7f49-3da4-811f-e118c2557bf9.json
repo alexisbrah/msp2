@@ -4312,6 +4312,18 @@
     },
     "done": true
   },
+  "rogcontinued:wastergreatswordadvancement": {
+    "criteria": {
+      "wastergreatswordadvancement": "2024-12-09 01:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-12-09 01:33:33 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/decorations/light_gray_sleeping_bag": {
     "criteria": {
       "has_light_gray_wool": "2024-12-09 01:24:37 +0000"
@@ -4321,6 +4333,12 @@
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2024-12-09 01:24:37 +0000"
+    },
+    "done": true
+  },
+  "stellarity:events/on_death": {
+    "criteria": {
+      "requirement": "2024-12-09 01:33:04 +0000"
     },
     "done": true
   },
@@ -4369,6 +4387,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2024-12-09 01:24:37 +0000"
+    },
+    "done": true
+  },
+  "rogcontinued:dullbladeadvancement": {
+    "criteria": {
+      "dullbladeadvancement": "2024-12-09 01:31:04 +0000"
     },
     "done": true
   },

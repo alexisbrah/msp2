@@ -1,247 +1,616 @@
-[25Nov2024 00:00:42.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 00:04:21.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Acquire Hardware]
-[25Nov2024 00:04:55.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Suit Up]
-[25Nov2024 00:05:08.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Suit Up]
-[25Nov2024 00:07:18.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Best Friends Forever]
-[25Nov2024 00:08:55.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:16:55.183] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
-[25Nov2024 00:16:55.309] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
-[25Nov2024 00:16:55.416] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
-[25Nov2024 00:16:55.468] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
-[25Nov2024 00:16:55.470] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
-[25Nov2024 00:17:04.761] [Worker-Main-1/WARN] [com.cupboard.Cupboard/]: A mod is trying to add an entity from offthread, this should be avoided. Printing trace:
-java.lang.Exception: null
-	at net.minecraft.server.level.ServerLevel.handler$zle000$cupboard$OnaddEntity(ServerLevel.java:1655) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at untamedwilds.entity.ComplexMob.breed(ComplexMob.java:239) ~[untamedwilds-1.20.1-4.0.4.jar%23259!/:4.0.4]
-	at untamedwilds.entity.relict.EntitySpitter.updateAttributes(EntitySpitter.java:353) ~[untamedwilds-1.20.1-4.0.4.jar%23259!/:4.0.4]
-	at untamedwilds.entity.ComplexMob.m_6518_(ComplexMob.java:422) ~[untamedwilds-1.20.1-4.0.4.jar%23259!/:4.0.4]
-	at net.minecraftforge.event.ForgeEventFactory.onFinalizeSpawn(ForgeEventFactory.java:285) ~[forge-1.20.1-47.2.0-universal.jar%23270!/:?]
-	at untamedwilds.world.FaunaSpawn.performWorldGenSpawning(FaunaSpawn.java:151) ~[untamedwilds-1.20.1-4.0.4.jar%23259!/:4.0.4]
-	at untamedwilds.world.gen.feature.FeatureUndergroundFaunaLarge.m_142674_(FeatureUndergroundFaunaLarge.java:65) ~[untamedwilds-1.20.1-4.0.4.jar%23259!/:4.0.4]
-	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
-	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
-	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
-	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
-	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+[09Dec2024 01:13:31.553] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[09Dec2024 01:13:31.558] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[09Dec2024 01:13:32.838] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09Dec2024 01:13:32.850] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[09Dec2024 01:13:32.884] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[09Dec2024 01:13:32.913] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[09Dec2024 01:13:32.967] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/msp2/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23180%23183!/ Service=ModLauncher Env=SERVER
+[09Dec2024 01:13:33.493] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[09Dec2024 01:13:33.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Dec2024 01:13:33.501] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Dec2024 01:13:33.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/msp2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Dec2024 01:13:34.289] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 68 dependencies adding them to mods collection
+[09Dec2024 01:13:35.263] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 6 candidates to load
+[09Dec2024 01:13:37.274] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[09Dec2024 01:13:41.069] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Dec2024 01:13:41.725] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[09Dec2024 01:13:41.823] [main/WARN] [mixin/]: Reference map 'ad_astra_rocketed-forge-1.20.1-forge-refmap.json' for ad_astra_rocketed.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2024 01:13:42.200] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 84 options available, 0 override(s) found
+[09Dec2024 01:13:42.204] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[09Dec2024 01:13:42.248] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[09Dec2024 01:13:42.304] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 187 options available, 0 override(s) found
+[09Dec2024 01:13:42.507] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for mixins.untamedwilds.json could not be read. If this is a development environment you can ignore this message
+[09Dec2024 01:13:42.899] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2024 01:13:42.912] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2024 01:13:42.923] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2024 01:13:44.216] [main/WARN] [mixin/]: Error loading class: me/desht/pneumaticcraft/common/upgrades/PNCUpgradeImpl (java.lang.ClassNotFoundException: me.desht.pneumaticcraft.common.upgrades.PNCUpgradeImpl)
+[09Dec2024 01:13:44.222] [main/WARN] [mixin/]: @Mixin target me.desht.pneumaticcraft.common.upgrades.PNCUpgradeImpl was not found ad_astra_giselle_addon.mixin.forge.common.json:pneumaticcraft.PNCUpgradeImplInject from mod ad_astra_giselle_addon
+[09Dec2024 01:13:44.733] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[09Dec2024 01:13:44.734] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[09Dec2024 01:13:44.734] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[09Dec2024 01:13:44.741] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[09Dec2024 01:13:44.741] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[09Dec2024 01:13:44.741] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[09Dec2024 01:13:46.549] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[09Dec2024 01:13:46.550] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[09Dec2024 01:13:46.835] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09Dec2024 01:13:48.830] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (21.29 s after launch)
+[09Dec2024 01:13:49.483] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[09Dec2024 01:13:49.493] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[09Dec2024 01:13:52.836] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3988 milliseconds
+[09Dec2024 01:13:56.663] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[09Dec2024 01:13:57.296] [main/INFO] [surveyor/]: [Surveyor] is not a map mod
+[09Dec2024 01:13:57.903] [main/INFO] [chronosacaria.mcda.Mcda/]: Registering Blocks for mcda
+[09Dec2024 01:13:58.345] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[09Dec2024 01:13:59.462] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
+[09Dec2024 01:13:59.464] [modloading-worker-0/WARN] [dev.su5ed.sinytra.connectorextras.util.HackyModuleInjector/]: Module terrablender is not present, skipping class injection
+[09Dec2024 01:13:59.709] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[09Dec2024 01:14:00.298] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[09Dec2024 01:14:01.100] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@79d14037 on thread Thread[#32,modloading-worker-0,5,main]
+[09Dec2024 01:14:01.101] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23238!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23238!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23238!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23238!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.2.0.jar%23267!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[25Nov2024 00:17:07.395] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
-[25Nov2024 00:17:07.411] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
-[25Nov2024 00:17:07.411] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
-[25Nov2024 00:17:07.475] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-286, y=-57, z=-393}
-[25Nov2024 00:17:07.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Crystal Chunk]
-[25Nov2024 00:17:08.970] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
-[25Nov2024 00:17:08.979] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
-[25Nov2024 00:17:09.039] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=-57, z=-394}
-[25Nov2024 00:17:34.333] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija lost connection: Disconnected
-[25Nov2024 00:17:34.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija left the game
-[25Nov2024 00:17:47.552] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkPija[/127.56.175.234:33907] logged in with entity id 10561 at (-70.49575020705761, 104.0, -390.65370547026794)
-[25Nov2024 00:17:47.576] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to DarkPija
-[25Nov2024 00:17:47.579] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to DarkPija
-[25Nov2024 00:17:47.580] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to DarkPija
-[25Nov2024 00:17:47.580] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to DarkPija
-[25Nov2024 00:17:47.587] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to DarkPija
-[25Nov2024 00:17:47.589] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to DarkPija
-[25Nov2024 00:17:47.594] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to DarkPija
-[25Nov2024 00:17:47.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija joined the game
-[25Nov2024 00:17:47.673] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
-[25Nov2024 00:17:47.682] [Server thread/INFO] [Jade/]: Syncing config to DarkPija (735e7294-ba9e-3b38-adf2-a3a38383bd33)
-[25Nov2024 00:18:01.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:18:28.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Bone]
-[25Nov2024 00:25:26.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [What a Deal!]
-[25Nov2024 00:25:51.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [A Seedy Place]
-[25Nov2024 00:26:27.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xMenThor: Teleported DarkPija to xMenThor]
-[25Nov2024 00:28:49.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:29:57.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was slain by xMenThor
-[25Nov2024 00:30:00.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:30:07.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was slain by xMenThor
-[25Nov2024 00:30:18.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
-[25Nov2024 00:30:20.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:33:04.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has reached the goal [I Am Become Death]
-[25Nov2024 00:33:29.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:33:48.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor became death, the destroyer of worlds
-[25Nov2024 00:33:50.829] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[25Nov2024 00:34:12.939] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7119ms or 142 ticks behind
-[25Nov2024 00:34:44.208] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[25Nov2024 00:34:57.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:35:55.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:36:41.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
-[25Nov2024 00:37:20.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
-[25Nov2024 00:38:00.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
-[25Nov2024 00:38:51.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Crisis Adverted]
-[25Nov2024 00:41:00.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:41:17.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was irradiated to death
-[25Nov2024 00:41:22.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:41:46.142] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/24999, l='ServerLevel[world]', x=309.51, y=77.04, z=-215.49] died, message: 'Unemployed drowned'
-[25Nov2024 00:46:57.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Crystal Chunk]
-[25Nov2024 00:47:08.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [False Water]
-[25Nov2024 00:51:41.892] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija lost connection: Disconnected
-[25Nov2024 00:51:41.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija left the game
-[25Nov2024 00:51:47.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkPija[/127.56.175.234:48899] logged in with entity id 27732 at (68.35942114328465, -58.0, -299.48736543166444)
-[25Nov2024 00:51:47.416] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to DarkPija
-[25Nov2024 00:51:47.416] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to DarkPija
-[25Nov2024 00:51:47.417] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to DarkPija
-[25Nov2024 00:51:47.417] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to DarkPija
-[25Nov2024 00:51:47.419] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to DarkPija
-[25Nov2024 00:51:47.422] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to DarkPija
-[25Nov2024 00:51:47.422] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to DarkPija
-[25Nov2024 00:51:47.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija joined the game
-[25Nov2024 00:51:47.543] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
-[25Nov2024 00:51:47.544] [Server thread/INFO] [Jade/]: Syncing config to DarkPija (735e7294-ba9e-3b38-adf2-a3a38383bd33)
-[25Nov2024 00:53:32.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Sweet Dreams]
-[25Nov2024 00:54:34.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Cover Me with Diamonds]
-[25Nov2024 00:55:22.119] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7199ms or 143 ticks behind
-[25Nov2024 00:55:22.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! 213.4205207765607,-61.67647087614428,-1213.3425542269563
-[25Nov2024 00:56:39.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [The Silence of the Forest]
-[25Nov2024 00:57:38.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [The Silence of the Forest]
-[25Nov2024 00:58:44.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 00:59:07.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 00:59:36.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Ice Bucket Challenge]
-[25Nov2024 00:59:59.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Ice Bucket Challenge]
-[25Nov2024 01:00:55.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:01:36.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xMenThor moved too quickly! 0.6550772495152728,-0.9769118908984673,10.280896898972287
-[25Nov2024 01:01:36.424] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21653ms or 433 ticks behind
-[25Nov2024 01:01:36.963] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! 213.3324915248602,-61.67647087614428,-1212.908264174922
-[25Nov2024 01:01:59.055] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[25Nov2024 01:05:56.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkPija> t ?
-[25Nov2024 01:06:07.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xMenThor> CA
-[25Nov2024 01:06:56.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Incendium]
-[25Nov2024 01:06:56.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [We Need to Go Deeper]
-[25Nov2024 01:07:04.345] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14325ms or 286 ticks behind
-[25Nov2024 01:07:30.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Incendium]
-[25Nov2024 01:07:30.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [We Need to Go Deeper]
-[25Nov2024 01:07:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:07:31.374] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/148, l='ServerLevel[world]', x=80.70, y=62.05, z=163.26] died, message: 'Leatherworker drowned'
-[25Nov2024 01:08:12.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Fetch Me Their Souls!]
-[25Nov2024 01:08:14.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Those Were the Days]
-[25Nov2024 01:09:21.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 01:11:07.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 01:12:09.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [With Fire It Writes]
-[25Nov2024 01:12:14.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [With Fire It Writes]
-[25Nov2024 01:14:04.734] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/48469, l='ServerLevel[world]', x=330.15, y=87.02, z=-252.59] died, message: 'Unemployed drowned'
-[25Nov2024 01:14:04.735] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/48470, l='ServerLevel[world]', x=329.72, y=86.04, z=-248.37] died, message: 'Unemployed drowned'
-[25Nov2024 01:14:07.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:14:58.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [I Can See Forever]
-[25Nov2024 01:15:00.989] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2519ms or 50 ticks behind
-[25Nov2024 01:15:01.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [I Can See Forever]
-[25Nov2024 01:17:30.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Bug Stomper]
-[25Nov2024 01:17:33.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Bug Stomper]
-[25Nov2024 01:20:42.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has reached the goal [Time To Even The Scales]
-[25Nov2024 01:20:42.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has reached the goal [Time To Even The Scales]
-[25Nov2024 01:21:45.041] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! 0.0,-10.80652611000901,0.0
-[25Nov2024 01:21:45.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xMenThor moved too quickly! 6.019831286033991,0.0,8.016365687546227
-[25Nov2024 01:21:45.050] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2130ms or 42 ticks behind
-[25Nov2024 01:21:46.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:21:47.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija fell from a high place
-[25Nov2024 01:21:51.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:23:13.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 01:23:35.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor fell from a high place
-[25Nov2024 01:23:50.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xMenThor: Teleported xMenThor to DarkPija]
-[25Nov2024 01:24:19.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Bone]
-[25Nov2024 01:25:52.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xMenThor: Teleported DarkPija to xMenThor]
-[25Nov2024 01:27:13.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was at a loss for words after being killed by Death Tome
-[25Nov2024 01:27:18.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:28:35.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11867ms or 237 ticks behind
-[25Nov2024 01:28:35.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
-[25Nov2024 01:28:35.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xMenThor: Teleported DarkPija to xMenThor]
-[25Nov2024 01:28:56.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
-[25Nov2024 01:29:49.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xMenThor lost connection: Disconnected
-[25Nov2024 01:29:49.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor left the game
-[25Nov2024 01:30:00.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija discovered the floor was lava
-[25Nov2024 01:30:07.125] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija lost connection: Disconnected
-[25Nov2024 01:30:07.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija left the game
-[25Nov2024 01:30:21.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Nov2024 01:30:21.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Nov2024 01:30:21.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Nov2024 01:30:22.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[25Nov2024 01:30:27.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[25Nov2024 01:30:27.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[25Nov2024 01:30:27.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[25Nov2024 01:30:27.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[25Nov2024 01:30:27.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[25Nov2024 01:30:27.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[25Nov2024 01:30:27.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[25Nov2024 01:30:27.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[25Nov2024 01:30:27.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[25Nov2024 01:30:27.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[25Nov2024 01:30:27.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[25Nov2024 01:30:27.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[25Nov2024 01:30:27.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
-[25Nov2024 01:30:27.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
-[25Nov2024 01:30:27.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[25Nov2024 01:30:27.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
-[25Nov2024 01:30:27.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[25Nov2024 01:30:27.909] [Server thread/INFO] [surveyor/]: [Surveyor] Saving server data...
-[25Nov2024 01:30:28.210] [Server thread/INFO] [surveyor/]: [Surveyor] Finished saving data for minecraft:overworld | cleaned 5 terrain regions, 0 structure regions, 15 landmarks
-[25Nov2024 01:30:28.222] [Server thread/INFO] [surveyor/]: [Surveyor] Finished saving data for twilightforest:twilight_forest | cleaned 1 terrain regions, 0 structure regions, 3 landmarks
-[25Nov2024 01:30:28.223] [Server thread/INFO] [surveyor/]: [Surveyor] Finished saving server data.
-[25Nov2024 01:30:28.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Nov2024 01:30:28.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[25Nov2024 01:30:28.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[25Nov2024 01:30:28.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[25Nov2024 01:30:28.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[25Nov2024 01:30:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[25Nov2024 01:30:29.050] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[09Dec2024 01:14:01.104] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[09Dec2024 01:14:01.341] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[09Dec2024 01:14:01.341] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[09Dec2024 01:14:01.547] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Loading compatibility module with Patchouli
+[09Dec2024 01:14:03.250] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[09Dec2024 01:14:03.251] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[09Dec2024 01:14:09.559] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[09Dec2024 01:14:09.570] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[09Dec2024 01:14:09.572] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[09Dec2024 01:14:09.574] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[09Dec2024 01:14:09.843] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[09Dec2024 01:14:10.683] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Registering Packets!
+[09Dec2024 01:14:10.726] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[09Dec2024 01:14:10.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Starting version check at https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json
+[09Dec2024 01:14:10.841] [Thread-1/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[09Dec2024 01:14:10.882] [main/INFO] [journeymap/]: Initializing Packet Registries
+[09Dec2024 01:14:10.907] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[09Dec2024 01:14:10.908] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[09Dec2024 01:14:10.909] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[09Dec2024 01:14:10.909] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[09Dec2024 01:14:10.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Found status: OUTDATED Current: 2.0d Target: 2.0e
+[09Dec2024 01:14:10.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
+[09Dec2024 01:14:11.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: BETA Current: 1.3.31 Target: null
+[09Dec2024 01:14:11.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[09Dec2024 01:14:11.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.10 Target: null
+[09Dec2024 01:14:11.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[09Dec2024 01:14:11.311] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2024 01:14:11.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[09Dec2024 01:14:11.362] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 35 compatible attributes.
+[09Dec2024 01:14:11.378] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 35 values from config.
+[09Dec2024 01:14:11.397] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 35 entries.
+[09Dec2024 01:14:11.398] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 35 attributes.
+[09Dec2024 01:14:11.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[09Dec2024 01:14:11.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[09Dec2024 01:14:11.432] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[09Dec2024 01:14:11.440] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[09Dec2024 01:14:11.457] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[09Dec2024 01:14:11.462] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[09Dec2024 01:14:11.464] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[09Dec2024 01:14:11.607] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2024 01:14:11.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge
+[09Dec2024 01:14:11.741] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.741] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.742] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.743] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.743] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.744] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.744] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.745] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.745] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.746] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.747] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.748] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.749] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.749] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.749] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.750] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.750] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.750] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.751] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.751] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.752] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.752] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.753] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.753] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.754] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.756] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.756] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.757] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.757] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.758] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.758] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.758] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.759] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.759] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.760] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.761] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.761] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.763] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.764] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.764] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.765] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.766] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.766] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.767] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.767] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.767] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.768] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.768] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.769] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.769] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.770] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.770] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.771] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.771] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.772] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.772] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.773] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.773] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.774] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.774] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.774] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.775] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.775] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.776] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.777] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.777] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.778] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.779] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.779] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:11.780] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:11.986] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: OUTDATED Current: 3.7.6 Target: 3.7.7
+[09Dec2024 01:14:11.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[09Dec2024 01:14:12.291] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Dec2024 01:14:12.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[09Dec2024 01:14:12.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[09Dec2024 01:14:12.350] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2024 01:14:12.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[09Dec2024 01:14:12.444] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[09Dec2024 01:14:12.576] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[09Dec2024 01:14:12.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[09Dec2024 01:14:12.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[09Dec2024 01:14:12.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Dec2024 01:14:12.755] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.755] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.756] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.756] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.757] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.757] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.757] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.758] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.758] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.758] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.759] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.759] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.760] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.761] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.762] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.763] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.763] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.764] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.764] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.765] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.766] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.767] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.768] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.769] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.769] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.770] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.770] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.771] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.771] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.772] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.772] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.774] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.774] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.774] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.775] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.775] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.776] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.776] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.776] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.777] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.778] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.779] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.780] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.780] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.781] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.781] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.781] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.782] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.782] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.783] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.784] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.786] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.789] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.789] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.790] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.790] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.790] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.791] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.792] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.792] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.792] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.793] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.793] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.793] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.794] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.794] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.796] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.796] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.796] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.797] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[09Dec2024 01:14:12.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[09Dec2024 01:14:12.827] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2024 01:14:12.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[09Dec2024 01:14:12.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[09Dec2024 01:14:12.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[09Dec2024 01:14:12.992] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.993] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.993] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.993] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:12.995] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.000] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.000] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.000] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.001] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.001] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.001] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.001] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.002] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.004] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.008] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.008] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.008] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.003] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2024 01:14:13.009] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[09Dec2024 01:14:13.008] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.011] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.011] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.012] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.017] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.017] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.017] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.017] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.019] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.021] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.021] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.021] [main/ERROR] [net.minecraft.Util/]: Entity mcdw:summoned_bee has no attributes
+[09Dec2024 01:14:13.021] [main/ERROR] [net.minecraft.Util/]: Entity mcda:summoned_bee has no attributes
+[09Dec2024 01:14:13.517] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/msp2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/assets/.mcassetsroot' uses unexpected schema
+[09Dec2024 01:14:13.519] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/msp2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/data/.mcassetsroot' uses unexpected schema
+[09Dec2024 01:14:13.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.19 Target: null
+[09Dec2024 01:14:22.941] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[09Dec2024 01:14:23.489] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [wares:cardboard_box (from [forge]ctov-3.4.10.jar)] as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.10.jar)
+[09Dec2024 01:14:23.496] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)] as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)
+[09Dec2024 01:14:23.625] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#aether:is_aether (from totw_modded-forge-1.20.1-1.0.5.jar)] as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.5.jar)
+[09Dec2024 01:14:23.627] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [rats:ratlantis (from totw_modded-forge-1.20.1-1.0.5.jar)] as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.5.jar)
+[09Dec2024 01:14:25.406] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
+com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
+	at net.minecraft.util.GsonHelper.m_13912_(GsonHelper.java:181) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:72) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23270!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23270!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[09Dec2024 01:14:27.657] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[09Dec2024 01:14:27.722] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ad_astra_rocketed:nasa_workbench/cp_tweaks_integration/tier_7_rocket_from_nasa_workbench as it's serializer returned null
+[09Dec2024 01:14:27.734] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[09Dec2024 01:14:27.820] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[09Dec2024 01:14:27.860] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ad_astra_rocketed:nasa_workbench/cp_tweaks_integration/tier_6_rocket_from_nasa_workbench as it's serializer returned null
+[09Dec2024 01:14:27.872] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[09Dec2024 01:14:27.931] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe ad_astra_rocketed:nasa_workbench/cp_tweaks_integration/tier_5_rocket_from_nasa_workbench as it's serializer returned null
+[09Dec2024 01:14:27.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[09Dec2024 01:14:27.959] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[09Dec2024 01:14:27.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[09Dec2024 01:14:27.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[09Dec2024 01:14:27.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
+[09Dec2024 01:14:28.490] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement totw_modded:root: Expected item to be an item, was unknown string 'waystones:mossy_waystone'
+[09Dec2024 01:14:28.621] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:regular_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@2a4860e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1139c060}, criteria={regular=net.minecraft.advancements.Criterion@6345728}, requirements=[[regular]], sends_telemetry_event=false}
+[09Dec2024 01:14:28.622] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_grass_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@6d94bf39, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1139c060}, criteria={derelict_grass=net.minecraft.advancements.Criterion@49bd28b4}, requirements=[[derelict_grass]], sends_telemetry_event=false}
+[09Dec2024 01:14:28.623] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@1ac3fc71, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1139c060}, criteria={derelict=net.minecraft.advancements.Criterion@3a1b9f15}, requirements=[[derelict]], sends_telemetry_event=false}
+[09Dec2024 01:14:28.623] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:ice_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@3fa215cc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1139c060}, criteria={ice=net.minecraft.advancements.Criterion@5927d61a}, requirements=[[ice]], sends_telemetry_event=false}
+[09Dec2024 01:14:28.623] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:jungle_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@10552148, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@1139c060}, criteria={jungle=net.minecraft.advancements.Criterion@7725b25e}, requirements=[[jungle]], sends_telemetry_event=false}
+[09Dec2024 01:14:28.624] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5422 advancements
+[09Dec2024 01:14:28.628] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 8 tool_handle_types
+[09Dec2024 01:14:28.630] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 37 snowcap_oven_freezing_recipes
+[09Dec2024 01:14:28.631] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 horizonite_forge_fuels
+[09Dec2024 01:14:28.631] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 12 snowcap_mushroom_freezing
+[09Dec2024 01:14:28.654] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 70 alchemy_recipes
+[09Dec2024 01:14:28.657] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 81 journal/entries
+[09Dec2024 01:14:28.657] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 3 journal/sections
+[09Dec2024 01:14:28.657] [main/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 journal/requirements
+[09Dec2024 01:14:28.661] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[09Dec2024 01:14:28.681] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[09Dec2024 01:14:28.700] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[09Dec2024 01:14:28.710] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: spawn_tables
+[09Dec2024 01:14:28.711] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for spawn_tables loaded 8 jsons
+[09Dec2024 01:14:28.711] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: entities
+[09Dec2024 01:14:28.724] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for entities loaded 36 jsons
+[09Dec2024 01:14:28.724] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[09Dec2024 01:14:28.806] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:gravel
+[09Dec2024 01:14:28.849] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/ratlantis_tower
+[09Dec2024 01:14:29.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[09Dec2024 01:14:29.381] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Dec2024 01:14:29.381] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Dec2024 01:14:29.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Dec2024 01:14:29.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Dec2024 01:14:29.555] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[09Dec2024 01:14:29.651] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Dec2024 01:14:29.651] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Dec2024 01:14:29.651] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Dec2024 01:14:29.652] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Dec2024 01:14:29.679] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[09Dec2024 01:14:30.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Dec2024 01:14:30.270] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for minecraft:overworld
+[09Dec2024 01:14:30.472] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for minecraft:overworld
+[09Dec2024 01:14:31.095] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:mars_orbit
+[09Dec2024 01:14:31.096] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:mars_orbit
+[09Dec2024 01:14:31.107] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:mercury
+[09Dec2024 01:14:31.108] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:mercury
+[09Dec2024 01:14:31.122] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:mercury_orbit
+[09Dec2024 01:14:31.122] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:mercury_orbit
+[09Dec2024 01:14:31.125] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:moon
+[09Dec2024 01:14:31.126] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:moon
+[09Dec2024 01:14:31.136] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for minecraft:the_nether
+[09Dec2024 01:14:31.168] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for minecraft:the_nether
+[09Dec2024 01:14:31.183] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:venus_orbit
+[09Dec2024 01:14:31.183] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:venus_orbit
+[09Dec2024 01:14:31.186] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:glacio
+[09Dec2024 01:14:31.187] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:glacio
+[09Dec2024 01:14:31.196] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:mars
+[09Dec2024 01:14:31.196] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:mars
+[09Dec2024 01:14:31.201] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:moon_orbit
+[09Dec2024 01:14:31.202] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:moon_orbit
+[09Dec2024 01:14:31.207] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:glacio_orbit
+[09Dec2024 01:14:31.208] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:glacio_orbit
+[09Dec2024 01:14:31.215] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for twilightforest:twilight_forest
+[09Dec2024 01:14:31.306] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for twilightforest:twilight_forest
+[09Dec2024 01:14:31.320] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:earth_orbit
+[09Dec2024 01:14:31.320] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:earth_orbit
+[09Dec2024 01:14:31.323] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for blue_skies:everdawn
+[09Dec2024 01:14:31.323] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for blue_skies:everdawn
+[09Dec2024 01:14:31.326] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for undergarden:undergarden
+[09Dec2024 01:14:31.326] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for undergarden:undergarden
+[09Dec2024 01:14:31.337] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for minecraft:the_end
+[09Dec2024 01:14:31.338] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for minecraft:the_end
+[09Dec2024 01:14:31.379] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for blue_skies:everbright
+[09Dec2024 01:14:31.379] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for blue_skies:everbright
+[09Dec2024 01:14:31.382] [Server thread/INFO] [surveyor/]: [Surveyor] Loading data for ad_astra:venus
+[09Dec2024 01:14:31.383] [Server thread/INFO] [surveyor/]: [Surveyor] Finished loading data for ad_astra:venus
+[09Dec2024 01:14:31.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Dec2024 01:14:33.648] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:33.649] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:33.651] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:33.654] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:33.655] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:33.893] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2024 01:14:36.556] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5165 ms
+[09Dec2024 01:14:36.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.885s)! For help, type "help"
+[09Dec2024 01:14:36.625] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Dec2024 01:14:36.681] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[09Dec2024 01:14:36.682] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[09Dec2024 01:14:36.683] [Server thread/WARN] [ModernFix/]: Dedicated server took 69.139 seconds to load
+[09Dec2024 01:15:23.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xMenThor[/127.146.249.15:53497] logged in with entity id 230 at (85.63796625065964, 65.0, -180.57137293424145)
+[09Dec2024 01:15:23.670] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to xMenThor
+[09Dec2024 01:15:23.672] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to xMenThor
+[09Dec2024 01:15:23.675] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to xMenThor
+[09Dec2024 01:15:23.676] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to xMenThor
+[09Dec2024 01:15:23.687] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to xMenThor
+[09Dec2024 01:15:23.703] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to xMenThor
+[09Dec2024 01:15:23.704] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to xMenThor
+[09Dec2024 01:15:23.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor joined the game
+[09Dec2024 01:15:24.331] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[09Dec2024 01:15:24.341] [Server thread/INFO] [Jade/]: Syncing config to xMenThor (82737e15-7f49-3da4-811f-e118c2557bf9)
+[09Dec2024 01:15:25.781] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[09Dec2024 01:17:43.821] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkPija[/127.5.145.227:58853] logged in with entity id 1154 at (86.69999998807907, 48.0, -183.30000001192093)
+[09Dec2024 01:17:43.837] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to DarkPija
+[09Dec2024 01:17:43.838] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to DarkPija
+[09Dec2024 01:17:43.839] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to DarkPija
+[09Dec2024 01:17:43.839] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to DarkPija
+[09Dec2024 01:17:43.842] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to DarkPija
+[09Dec2024 01:17:43.844] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to DarkPija
+[09Dec2024 01:17:43.853] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to DarkPija
+[09Dec2024 01:17:43.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija joined the game
+[09Dec2024 01:17:44.018] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[09Dec2024 01:17:44.022] [Server thread/INFO] [Jade/]: Syncing config to DarkPija (735e7294-ba9e-3b38-adf2-a3a38383bd33)
+[09Dec2024 01:20:26.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 01:21:39.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 01:22:32.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [White Iron Chunk]

@@ -614,3 +614,17 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [09Dec2024 01:20:26.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
 [09Dec2024 01:21:39.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
 [09Dec2024 01:22:32.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [White Iron Chunk]
+[09Dec2024 01:23:38.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 01:25:02.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Mine? Mine? Mine?]
+[09Dec2024 01:29:46.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 01:30:00.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported xMenThor to DarkPija]
+[09Dec2024 01:31:04.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Dull Blade]
+[09Dec2024 01:31:39.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Waster Great Sword]
+[09Dec2024 01:31:44.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[09Dec2024 01:31:57.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Waster Great Sword]
+[09Dec2024 01:33:04.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor was slain by DarkPija
+[09Dec2024 01:33:04.143] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for xMenThor with unique ID travelersbackpack.skeleton_09.12.2024-01.33.04.dat
+[09Dec2024 01:33:04.153] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 80 Y: 63 Z: -179
+[09Dec2024 01:33:30.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was slain by xMenThor
+[09Dec2024 01:33:33.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Cover Me with Diamonds]
+[09Dec2024 01:33:34.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]

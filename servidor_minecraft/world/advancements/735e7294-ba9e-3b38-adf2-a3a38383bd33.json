@@ -4077,5 +4077,29 @@
     },
     "done": true
   },
+  "rogcontinued:giantjawbladeadvancement": {
+    "criteria": {
+      "giantjawbladeadvancement": "2024-12-21 07:23:32 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2024-12-21 07:25:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:standard_from_custom": {
+    "criteria": {
+      "has_backpack": "2024-12-21 07:25:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:ore_map": {
+    "criteria": {
+      "ore_map": "2024-12-21 07:27:31 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

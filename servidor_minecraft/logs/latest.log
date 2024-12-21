@@ -620,3 +620,21 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [21Dec2024 07:19:49.651] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! 5.437837040816305,3.1909013491950162,7.838201517662185
 [21Dec2024 07:20:03.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
 [21Dec2024 07:20:04.646] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10230ms or 204 ticks behind
+[21Dec2024 07:20:22.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3244ms or 64 ticks behind
+[21Dec2024 07:23:15.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has made the advancement [Bone Hatchets]
+[21Dec2024 07:23:32.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has made the advancement [Giant Jaw Blade]
+[21Dec2024 07:24:10.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has completed the challenge [Give or Take]
+[21Dec2024 07:25:12.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:25:47.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was killed
+[21Dec2024 07:25:47.436] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for DarkPija with unique ID travelersbackpack.standard_21.12.2024-07.25.47.dat
+[21Dec2024 07:25:47.436] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 70 Y: 65 Z: -188
+[21Dec2024 07:25:47.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Killed DarkPija]
+[21Dec2024 07:25:52.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Teleported DarkPija to xMenThor]
+[21Dec2024 07:26:56.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:27:30.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:27:31.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija has completed the challenge [How Can That Be Worth It?]
+[21Dec2024 07:27:58.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! 1.855958507570051,1.1661092609382138,10.018159788051662
+[21Dec2024 07:29:06.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija moved too quickly! -3.5236249100464647,0.0,9.519884810762733
+[21Dec2024 07:29:32.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:29:42.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:30:06.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has reached the goal [Trophied Champion]

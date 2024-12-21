@@ -4514,6 +4514,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2024-12-21 07:18:12 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/hammers/hammer_stormlander": {
     "criteria": {
       "has_anvil": "2024-12-21 07:17:01 +0000"
@@ -4538,9 +4544,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2024-12-21 07:18:12 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2024-12-21 07:26:15 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:all_weapons": {
+    "criteria": {
+      "leviathan_axe": "2024-12-21 07:24:10 +0000"
+    },
+    "done": false
+  },
+  "soulsweapons:leviathan_axe": {
+    "criteria": {
+      "weapon": "2024-12-21 07:24:10 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:standard_from_custom": {
+    "criteria": {
+      "has_backpack": "2024-12-21 07:26:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/green_dye": {
     "criteria": {
       "has_cactus": "2024-12-21 07:16:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2024-12-21 07:19:36 +0000"
+    },
+    "done": true
+  },
+  "rogcontinued:bonehatchetsadvancement": {
+    "criteria": {
+      "bonehatchetsadvancement": "2024-12-21 07:23:15 +0000"
     },
     "done": true
   },

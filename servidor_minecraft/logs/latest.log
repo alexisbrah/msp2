@@ -638,3 +638,31 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [21Dec2024 07:29:32.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
 [21Dec2024 07:29:42.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
 [21Dec2024 07:30:06.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor has reached the goal [Trophied Champion]
+[21Dec2024 07:32:01.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:32:13.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:32:52.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija was skewered by Block and Chain Goblin
+[21Dec2024 07:32:52.934] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for DarkPija with unique ID travelersbackpack.bat_21.12.2024-07.32.52.dat
+[21Dec2024 07:32:52.934] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 269 Y: -5 Z: -1032
+[21Dec2024 07:33:38.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:34:35.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [xMenThor: Teleported xMenThor to DarkPija]
+[21Dec2024 07:34:58.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:36:54.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:36:59.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Survival Mode]
+[21Dec2024 07:37:22.091] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija lost connection: Disconnected
+[21Dec2024 07:37:22.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija left the game
+[21Dec2024 07:37:27.442] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkPija[/127.230.134.138:46623] logged in with entity id 11201 at (292.3251764049084, -5.0, -1062.9007545830452)
+[21Dec2024 07:37:27.465] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to DarkPija
+[21Dec2024 07:37:27.466] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to DarkPija
+[21Dec2024 07:37:27.467] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to DarkPija
+[21Dec2024 07:37:27.469] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to DarkPija
+[21Dec2024 07:37:27.472] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to DarkPija
+[21Dec2024 07:37:27.475] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to DarkPija
+[21Dec2024 07:37:27.480] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to DarkPija
+[21Dec2024 07:37:27.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija joined the game
+[21Dec2024 07:37:27.576] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[21Dec2024 07:37:27.584] [Server thread/INFO] [Jade/]: Syncing config to DarkPija (735e7294-ba9e-3b38-adf2-a3a38383bd33)
+[21Dec2024 07:37:58.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkPija: Set own game mode to Creative Mode]
+[21Dec2024 07:39:53.084] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkPija lost connection: Disconnected
+[21Dec2024 07:39:53.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkPija left the game
+[21Dec2024 07:39:54.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xMenThor lost connection: Disconnected
+[21Dec2024 07:39:54.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xMenThor left the game
